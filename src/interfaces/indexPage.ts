@@ -5,6 +5,7 @@ export type IndexPage = {
   releaseCode: string;
   duration: string;
   coverVideo?: string;
+  videoPoster?: string;
   introText?: string;
   infoBlock1: string;
   infoBlock2: string;

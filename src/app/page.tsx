@@ -28,27 +28,18 @@ export default async function Index() {
         
         {/* Centered content container that transitions when text appears */}
         <div className="flex-1 flex flex-col justify-center items-center text-center animate-[centerToTop_1s_ease-in-out_3s_forwards]">
-          
-          {page.title && (<h1 className="text-2xl md:text-4xl tracking-tighter leading-tight mb-4">
-            {page.title}
-          </h1>)}
-
-          {(page.releaseCode || page.duration) && (
-            <div className="text-base mb-4">
-              {page.releaseCode && <p>{page.releaseCode}</p>}
-              {page.duration && <p>{page.duration}</p>}
-            </div>
-          )}
 
           {page.coverVideo && (
             <div className="w-full max-w-2xl">
               <video
                 src={page.coverVideo}
+                poster={page.videoPoster}
                 className="w-full h-auto rounded-lg"
                 loop
                 autoPlay
                 muted
                 playsInline
+                controls // Add controls for iOS users
               />
             </div>
           )}

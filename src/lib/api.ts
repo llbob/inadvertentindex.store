@@ -70,6 +70,7 @@ export function getIndexPage(): IndexPage | null {
       copyrightEndText: data.copyrightEndText,
       creditsText: data.creditsText,
       coverVideo: data.coverVideo,
+      videoPoster: data.videoPoster,
       buyButtonText: data.buyButtonText,
       buyButtonLink: data.buyButtonLink,
       content,

@@ -1,5 +1,7 @@
 ---
+title: inadvertent.index
 coverVideo: /assets/album/satellite.mp4
+videoPoster: /assets/album/satellite-poster.jpeg
 introText: 'This is "Satellite": the first compilation released by inadvertent.index on June 6th 2025. It consists of 20 previously unreleased tracks from artists throughout Europe and the US.'
 infoBlock1: In creating a compilation, we seek to light a beacon to attract music creators and listeners, creating yet another node in a vast rhizome of contemporary culture. In compiling ideas, we carve out a slice of the ever-expanding cultural canon within the global village of now; everywhere all at once, yet with no clear course nor origin. In a contextualized and compiled format, the essence ot joint ideas emerge and crystalize.
 infoBlock2: A sense of community can be hard to find in a time where more people become isolated and echo chambers are rife. This compilation is a small gesture to not only create community between music practitioners but also translate it into real life solidarity and community.
