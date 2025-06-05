@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: `%s | ${CMS_NAME}`,
     default: CMS_NAME,
   },
-  description: `horse vision`,
+  description: `inadvertent.index`,
 };
 
 export default function RootLayout({
