@@ -1,0 +1,20 @@
+export type IndexPage = {
+  slug: string;
+  title: string;
+  // pageLoadVideo: string;
+  releaseCode: string;
+  duration: string;
+  coverVideo?: string;
+  introText?: string;
+  infoBlock1: string;
+  infoBlock2: string;
+  infoBlock3: string;
+  proceedsText?: string;
+  price: string;
+  copyrightBody: string;
+  copyrightEndText: string;
+  creditsText?: string;
+  buyButtonText: string;
+  buyButtonLink: string;
+  content: string;
+};
