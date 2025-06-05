@@ -22,7 +22,7 @@ export default async function Index() {
   const creditsContent = page.creditsText ? await markdownToHtml(page.creditsText) : "";
 
   return (
-    <main className="min-h-screen flex flex-col">
+    <main className="h-screen flex flex-col">
       <Container>
         <Header text="" />
         

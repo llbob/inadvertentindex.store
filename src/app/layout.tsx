@@ -1,6 +1,7 @@
 import Footer from "@/app/_components/footer";
 import { CMS_NAME } from "@/lib/constants";
 import type { Metadata } from "next";
+import Script from "next/script";
 
 import "./globals.css";
 
@@ -56,9 +57,12 @@ export default function RootLayout({
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
       <body className="bg-background">
-        <script src="https://app.lemonsqueezy.com/js/lemon.js" defer></script>
         <div className="min-h-screen">{children}</div>
         <Footer />
+        <Script 
+          src="https://app.lemonsqueezy.com/js/lemon.js" 
+          strategy="beforeInteractive"
+        />
       </body>
     </html>
   );
