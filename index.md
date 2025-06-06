@@ -23,7 +23,7 @@ proceedsText: All proceeds are donated to charities of the contributors choice
   Stockholm, Fondation Marius Jacobs, Friends Of The Earth, UNICEF, Palestine
   Solidarity Campaign, Palestine Children's Relief Fund and Médecins Sans
   Frontières. Proof of donations will be published through official channels for
-  transparency.
+  [transparency](https://google.com).
 buyButtonText: Buy digital album
 buyButtonLink: https://horsevision.lemonsqueezy.com/buy/6dfc4aa0-cbe0-4598-8b51-66b7092cd7af?embed=1&media=0&logo=0
 price: 20€ or name your price + VAT
