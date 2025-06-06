@@ -3,7 +3,7 @@ title: inadvertent.index – Satellite [V/A]
 coverVideo: /assets/album/satellite.mp4
 videoPoster: /assets/album/satellite-poster.jpeg
 introText: 'This is "Satellite": the first compilation released by
-  inadvertent.index on June 6th 2025. It consists of 20 previously unreleased
+  inadvertent.index on June 8th 2025. It consists of 20 previously unreleased
   tracks from artists throughout Europe and the US.'
 infoBlock1: In creating a compilation, we seek to light a beacon to attract
   music creators and listeners, creating yet another node in a vast rhizome of
