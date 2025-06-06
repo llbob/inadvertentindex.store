@@ -20,14 +20,13 @@ export default async function Index() {
   const introContent = page.introText ? await markdownToHtml(page.introText) : "";
   const proceedsContent = page.proceedsText ? await markdownToHtml(page.proceedsText) : "";
   return (
-    <main className="min-h-screen flex flex-col">
+    <main className="h-screen flex flex-col">
       <Container>
         <Header text="" />
-      </Container>
-      
-      {/* Video container that stays centered until content fades in */}
-      <div className="flex-1 flex items-center justify-center px-4">
-        <div className="text-center animate-[centerToTop_1s_ease-in-out_3s_forwards]">
+        
+        {/* Centered content container that transitions when text appears */}
+        <div className="flex-1 flex flex-col justify-center items-center text-center animate-[centerToTop_1s_ease-in-out_3s_forwards]">
+
           {page.coverVideo && (
             <div className="w-full max-w-2xl">
               <video
@@ -42,10 +41,8 @@ export default async function Index() {
             </div>
           )}
         </div>
-      </div>
 
-      {/* Fade in content */}
-      <Container>
+        {/* Fade in content */}
         <div className="max-w-2xl mx-auto mt-8">
           <FadeInContent
             introContent={introContent}
