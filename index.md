@@ -26,7 +26,7 @@ proceedsText: All proceeds are donated to charities of the contributors choice
   transparency.
 buyButtonText: Buy digital album
 buyButtonLink: https://horsevision.lemonsqueezy.com/buy/6dfc4aa0-cbe0-4598-8b51-66b7092cd7af?embed=1&media=0&logo=0
-price: 15£ + VAT
+price: 20€ or name your price + VAT
 creditsText: Creative direction by prelude hearts. All tracks mastered by Jacob
   Günther Andersen.
 copyrightBody: >+
