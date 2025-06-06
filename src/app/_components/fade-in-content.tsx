@@ -77,8 +77,8 @@ export default function FadeInContent({
                 )}
 
                 {buyButtonText && (
-                    <div className="mt-8 flex pl-8">
-                        <span className="mr-2 text-2xl"></span>
+                    <div className="mt-8 flex pl-8 pr-8">
+                        <span className="text-2xl"></span>
                         <div className="block">
                             <a
                                 href={buyButtonLink}
@@ -96,22 +96,22 @@ export default function FadeInContent({
                     </div>
                 )}
                 
-                <div className="mt-8 space-y-6 pl-8">
+                <div className="mt-8 space-y-6 pl-8 pr-8">
                     {infoBlock1 && (
                         <div className="prose">
-                            <p className='text-lighter-gray'><span className="mr-4"></span>{infoBlock1}</p>
+                            <p className='text-lighter-gray'><span className="mr-8"></span>{infoBlock1}</p>
                         </div>
                     )}
 
                     {infoBlock2 && (
                         <div className="prose">
-                            <p className='text-lighter-gray'><span className="mr-4"></span>{infoBlock2}</p>
+                            <p className='text-lighter-gray'><span className="mr-8"></span>{infoBlock2}</p>
                         </div>
                     )}
 
                     {infoBlock3 && (
                         <div className="prose">
-                            <p className='text-lighter-gray'><span className="mr-4"></span>{infoBlock3}</p>
+                            <p className='text-lighter-gray'><span className="mr-8"></span>{infoBlock3}</p>
                         </div>
                     )}
                 </div>
