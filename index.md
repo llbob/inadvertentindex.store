@@ -1,5 +1,5 @@
 ---
-title: inadvertent.index
+title: inadvertent.index – Satellite [V/A]
 coverVideo: /assets/album/satellite.mp4
 videoPoster: /assets/album/satellite-poster.jpeg
 introText: 'This is "Satellite": the first compilation released by
@@ -19,11 +19,16 @@ infoBlock3: This compilation is simply a sliver of time presented on a petri
   dish. Not set to present a certain genre, style or subculture, but rather an
   inadvertent index of contemporary music.
 proceedsText: All proceeds are donated to charities of the contributors choice
-  and split into equal parts. Charities include St. Luke's Hospice, Situation
-  Stockholm, Fondation Marius Jacobs, Friends Of The Earth, UNICEF, Palestine
-  Solidarity Campaign, Palestine Children's Relief Fund and Médecins Sans
-  Frontières. Proof of donations will be published through official channels for
-  [transparency](https://google.com).
+  and split into equal parts. Charities include [St. Luke's
+  Hospice](https://www.stlukes-hospice.org/), [Situation
+  Stockholm](https://www.situationsthlm.se/), [Fondation Marius
+  Jacobs](https://www.fondationmariusjacob.org/en/mariusjacobfund/), [Friends Of
+  The Earth](https://www.foei.org/), [UNICEF](https://unicef.se/), [Palestine
+  Solidarity Campaign](https://palestinecampaign.org/), [Palestine Children's
+  Relief Fund](https://www.pcrf.net/) and [Médecins Sans
+  Frontières](https://www.msf.org/). Proof of donations will be published
+  through [official channels](https://www.instagram.com/inadvertent.index/) for
+  transparency.
 buyButtonText: Buy digital album
 buyButtonLink: https://horsevision.lemonsqueezy.com/buy/6dfc4aa0-cbe0-4598-8b51-66b7092cd7af?embed=1&media=0&logo=0
 price: 20€ or name your price + VAT
