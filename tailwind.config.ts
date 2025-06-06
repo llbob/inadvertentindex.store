@@ -20,10 +20,13 @@ const config: Config = {
         success: "#0070f3",
         cyan: "#79FFE1",
         background: "#FBFBFB",
-        "base-text": "#999999",
+        "base-text": "#333333",
       },
       textColor: {
         "subtle": "#E0DDDE",
+        "lighter-gray": "#979797",
+        "mid-gray": "#777777",
+        "darker-gray": "#333333",
       },
       spacing: {
         28: "7rem",
@@ -32,6 +35,9 @@ const config: Config = {
         tighter: "-.04em",
       },
       fontSize: {
+        "xs": "0.75rem",
+        "sm": "0.8rem",
+        "base": "1rem",
         "5xl": "2.5rem",
         "6xl": "2.75rem",
         "7xl": "4.5rem",
@@ -43,6 +49,14 @@ const config: Config = {
       },
       fontFamily: {
         sans: ['ABC Diatype Plus Variable', 'Arial', 'sans-serif'],
+      },
+      fontVariationSettings: {
+        'mono-light': '"MONO" 1, "wght" 300',
+        'mono-regular': '"MONO" 1, "wght" 400',
+        'mono-bold': '"MONO" 1, "wght" 700',
+        'sans-light': '"MONO" 0, "wght" 300',
+        'sans-regular': '"MONO" 0, "wght" 400',
+        'sans-bold': '"MONO" 0, "wght" 700',
       },
       keyframes: {
         fadeIn: {

@@ -19,8 +19,6 @@ export default async function Index() {
   const content = await markdownToHtml(page.content || "");
   const introContent = page.introText ? await markdownToHtml(page.introText) : "";
   const proceedsContent = page.proceedsText ? await markdownToHtml(page.proceedsText) : "";
-  const creditsContent = page.creditsText ? await markdownToHtml(page.creditsText) : "";
-
   return (
     <main className="h-screen flex flex-col">
       <Container>
@@ -34,12 +32,11 @@ export default async function Index() {
               <video
                 src={page.coverVideo}
                 poster={page.videoPoster}
-                className="w-full h-auto rounded-lg"
+                className="w-full h-auto"
                 loop
                 autoPlay
                 muted
                 playsInline
-                controls // Add controls for iOS users
               />
             </div>
           )}
@@ -57,7 +54,7 @@ export default async function Index() {
             buyButtonLink={page.buyButtonLink}
             price={page.price}
             content={content}
-            creditsContent={creditsContent}
+            creditsText={page.creditsText}
             copyrightBody={page.copyrightBody}
             copyrightEndText={page.copyrightEndText}
           />
